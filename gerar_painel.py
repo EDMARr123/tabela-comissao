@@ -102,7 +102,7 @@ def gerar_html(produtos):
     <p>Ranking de produtos por comissão — toque no cabeçalho pra reordenar</p>
   </header>
 
-  <div class="aviso">Aviso: comissão simulada a preço cheio. O valor total da comissão varia conforme o preço do quilo.</div>
+  <div class="aviso">Aviso: comissão simulada a preço cheio. O valor total da comissão varia conforme o preço do quilo vendido.</div>
 
   <div class="barra">
     <input type="text" id="busca" placeholder="Buscar por código ou produto...">
