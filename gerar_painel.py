@@ -47,7 +47,7 @@ def gerar_html(produtos):
   .wrap {{ max-width: 980px; margin: 0 auto; padding: 32px 20px 64px; }}
   header {{ margin-bottom: 20px; }}
   header h1 {{ margin: 0 0 6px; font-size: 26px; font-weight: 800; letter-spacing: -0.01em; }}
-  header p {{ margin: 0; color: var(--ink-soft); font-size: 14px; }}
+  header p {{ margin: 0; color: #D42B2B; font-size: 14px; font-weight: 700; }}
 
   .barra {{
     display: flex; gap: 10px; align-items: center; margin-bottom: 16px;
