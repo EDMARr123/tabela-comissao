@@ -87,6 +87,12 @@ def gerar_html(produtos):
   .destaque {{ color: var(--good); font-weight: 800; }}
 
   footer {{ text-align: center; margin-top: 24px; font-size: 11.5px; color: var(--ink-faint); }}
+
+  .aviso {{
+    background: #FFF6E5; border: 1px solid #F0C766; border-radius: 10px;
+    padding: 12px 16px; margin-bottom: 16px; font-size: 13.5px; font-weight: 700;
+    color: var(--warn);
+  }}
 </style>
 </head>
 <body>
@@ -95,6 +101,8 @@ def gerar_html(produtos):
     <h1>Tabela de Comissão</h1>
     <p>Ranking de produtos por comissão — toque no cabeçalho pra reordenar</p>
   </header>
+
+  <div class="aviso">Aviso: comissão simulada a preço cheio. O valor total da comissão varia conforme o preço do quilo.</div>
 
   <div class="barra">
     <input type="text" id="busca" placeholder="Buscar por código ou produto...">
