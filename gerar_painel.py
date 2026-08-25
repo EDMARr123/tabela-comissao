@@ -25,16 +25,16 @@ def gerar_html(produtos):
 <title>Tabela de Comissão — Equipe GYN</title>
 <style>
   :root {{
-    --bg: #0B0D12;
-    --surface: #12151C;
-    --surface-2: #171B24;
-    --border: #262B36;
-    --ink: #F2F3F5;
-    --ink-soft: #9AA1AE;
-    --ink-faint: #6B7280;
-    --accent: #4F8CFF;
-    --good: #2FBF71;
-    --warn: #E0A72E;
+    --bg: #FFFFFF;
+    --surface: #FFFFFF;
+    --surface-2: #F2F3F5;
+    --border: #D9DBE1;
+    --ink: #000000;
+    --ink-soft: #000000;
+    --ink-faint: #3A3D45;
+    --accent: #2F6FEE;
+    --good: #1D9A56;
+    --warn: #B8790C;
   }}
   * {{ box-sizing: border-box; }}
   body {{
@@ -77,14 +77,14 @@ def gerar_html(produtos):
   thead th .seta {{ font-size: 10px; margin-left: 3px; color: var(--accent); }}
   tbody td {{
     padding: 9px 12px; border-bottom: 1px solid var(--border); text-align: right;
-    white-space: nowrap;
+    white-space: nowrap; font-weight: 700; color: var(--ink);
   }}
   tbody td:first-child, tbody td:nth-child(2) {{ text-align: left; }}
   tbody td:nth-child(2) {{ white-space: normal; min-width: 220px; }}
   tbody tr:hover {{ background: var(--surface-2); }}
   tbody tr:last-child td {{ border-bottom: none; }}
-  .cod {{ color: var(--ink-faint); font-variant-numeric: tabular-nums; }}
-  .destaque {{ color: var(--good); font-weight: 700; }}
+  .cod {{ color: var(--ink); font-variant-numeric: tabular-nums; }}
+  .destaque {{ color: var(--good); font-weight: 800; }}
 
   footer {{ text-align: center; margin-top: 24px; font-size: 11.5px; color: var(--ink-faint); }}
 </style>
